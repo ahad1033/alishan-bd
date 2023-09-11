@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../../../assets/logo.png'
 
 const Navbar = () => {
 
@@ -18,7 +19,7 @@ const Navbar = () => {
     </>
 
     return (
-        <div>
+        <div className='px-3'>
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -29,7 +30,7 @@ const Navbar = () => {
                             {navItems}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl">Alishan</a>
+                    <a className="btn btn-ghost normal-case text-xl"><img src={logo} width="60px" alt="Alishan" /></a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
