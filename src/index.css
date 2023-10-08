@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+:root {
+    --btn-bg-primary: #202020;
+    --text-primary: #B0903D;
+}
+
+.button-primary {
+    @apply btn btn-xs btn-wide sm:btn-sm md:btn-md lg:btn-lg uppercase text-white border-0;
+    border-radius: var(--spacing-1, 4px);
+}

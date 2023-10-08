@@ -19,29 +19,56 @@ const Navbar = () => {
     </>
 
     return (
+        // <div className='px-3'>
+        //     <div id='1' className="navbar" style={{ backgroundColor: '#303030' }}>
+        //         <div className="lg:navbar-start md:navbar-start sm:navbar-end">
+        //             <div className="dropdown">
+        //                 <label tabIndex={0} className="btn btn-ghost lg:hidden">
+        //                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="#B0903D">
+        //                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
+        //                     </svg>
+        //                 </label>
+        //                 <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+        //                     {navItems}
+        //                 </ul>
+        //             </div>
+        //             <img id='img' className='items-center' src={logo} width="60px" alt="Alishan" />
+        //         </div>
+        //         <div id='2' className="navbar-end hidden lg:flex">
+        //             <ul className="menu menu-horizontal px-1 font-bold text-[var(--text-primary)]">
+        //                 {navItems}
+        //             </ul>
+        //         </div>
+        //     </div>
+        // </div>
+
         <div className='px-3'>
-            <div className="navbar bg-base-100">
-                <div className="navbar-start">
+            <div className="navbar" style={{ backgroundColor: '#303030' }}>
+                <div id='1' className="lg:hidden md:hidden sm:block  sm:navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="#B0903D">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
                         </label>
                         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                             {navItems}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl"><img src={logo} width="60px" alt="Alishan" /></a>
                 </div>
-                <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
+                <div id='2' className="navbar-start sm:navbar-end">
+                    <img id='img' className='items-center' src={logo} width="60px" alt="Alishan" />
+                </div>
+                <div id='3' className="navbar-end hidden lg:flex md:flex">
+                    <ul className="menu menu-horizontal px-1 font-bold text-[var(--text-primary)]">
                         {navItems}
                     </ul>
                 </div>
-                <div className="navbar-end">
-                    <a className="btn">Login</a>
-                </div>
             </div>
         </div>
+
+
+
     );
 };
 
