@@ -8,6 +8,10 @@
     --text-primary: #B0903D;
 }
 
+.section-container{
+    @apply lg:px-48 md:px-10 sm:px-5 mx-auto;
+}
+
 .button-primary {
     @apply btn btn-xs btn-wide sm:btn-sm md:btn-md lg:btn-lg uppercase text-white border-0;
     border-radius: var(--spacing-1, 4px);

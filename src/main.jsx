@@ -5,7 +5,7 @@ import Main from './Layout/Main'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className='max-w-screen-xl mx-auto'>
+    <div>
       <Main />
     </div>
   </React.StrictMode>,

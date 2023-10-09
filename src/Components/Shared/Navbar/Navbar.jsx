@@ -42,9 +42,9 @@ const Navbar = () => {
         //     </div>
         // </div>
 
-        <div className='px-3'>
-            <div className="navbar" style={{ backgroundColor: '#303030' }}>
-                <div id='1' className="lg:hidden md:hidden sm:block  sm:navbar-start">
+        <div className='section-container bg-black'>
+            <div className="navbar">
+                <div id='1' className="lg:hidden md:hidden navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="#B0903D">
@@ -56,7 +56,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                 </div>
-                <div id='2' className="navbar-start sm:navbar-end">
+                <div id='2' className="lg:navbar-start md:navbar-start sm:navbar-end">
                     <img id='img' className='items-center' src={logo} width="60px" alt="Alishan" />
                 </div>
                 <div id='3' className="navbar-end hidden lg:flex md:flex">
