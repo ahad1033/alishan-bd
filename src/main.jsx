@@ -5,8 +5,6 @@ import Main from './Layout/Main'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div>
-      <Main />
-    </div>
+    <Main />
   </React.StrictMode>,
 )
