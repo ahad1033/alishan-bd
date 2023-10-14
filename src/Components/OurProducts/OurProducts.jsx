@@ -13,9 +13,9 @@ const OurProducts = () => {
     },[])
 
     return (
-        <section className='bg-base-200'>
+        <section className='bg-base-100 my-10'>
             <h2 className='text-center text-black font-bold text-5xl py-8'>Our Stone Basins</h2>
-            <div className='section-container flex gap-5'>
+            <div className='section-container mx-auto grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10'>
                 {products.map((product) => (<SingleProducts key={product.modelNo} product={product} />))}
             </div>
         </section>
