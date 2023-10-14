@@ -3,6 +3,7 @@ import Navbar from '../Components/Shared/Navbar/Navbar';
 import OurProducts from '../Components/OurProducts/OurProducts';
 import Banner from '../Components/Banner/Banner';
 import SubscribeSection from '../Components/SubscribeSection/SubscribeSection';
+import Footer from '../Components/Shared/Footer/Footer';
 
 const Main = () => {
     return (
@@ -11,6 +12,7 @@ const Main = () => {
             <Banner />
             <OurProducts />
             <SubscribeSection />
+            <Footer />
         </div>
     );
 };
