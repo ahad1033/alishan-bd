@@ -1,0 +1,87 @@
+[
+    {
+      "modelNo": "01-BGP",
+      "price": "24000/-",
+      "basinSize": "22 x 21 inches",
+      "mirrorSize": "36 x 24 inches",
+      "topSize": "No Top",
+      "color": "Antique Solid Gold",
+      "weight": "50 kg",
+      "style": "Free Standing Basin",
+      "img": {
+        "img1": "https://i.ibb.co/y4gZJ2X/A.jpg",
+        "img2": "https://i.ibb.co/TKFJK6R/B.jpg",
+        "img3": "https://i.ibb.co/1ftZp94/C.jpg"
+      }
+    },
+    {
+      "modelNo": "03-Silver",
+      "price": "37000/-",
+      "basinSize": "39 x 20 inches",
+      "mirrorSize": "39 x 27 inches",
+      "topSize": "23 x 16 inches",
+      "color": "Antique Solid Gold",
+      "weight": "90 kg",
+      "style": "Table Top Basin",
+      "img": {
+        "img1": "https://i.ibb.co/fXjBmjn/03-Silver-A.jpg",
+        "img2": "https://i.ibb.co/L0p7cdh/03-Silver-B.jpg",
+        "img3": "https://i.ibb.co/6YzvxqZ/03-Silver-E.jpg",
+        "img4": "https://i.ibb.co/c6WGf4N/03-Silver-G.jpg",
+        "img5": "https://i.ibb.co/QHbfCMF/03-Silver-H.jpg"
+      }
+    },
+    {
+      "modelNo": "03-BGP",
+      "price": "37000/-",
+      "basinSize": "39 x 20 inches",
+      "mirrorSize": "39 x 27 inches",
+      "topSize": "23 x 16 inches",
+      "color": "Antique Solid Gold",
+      "weight": "90 kg",
+      "style": "Table Top Basin",
+      "img": {
+        "img1": "https://i.ibb.co/QrNQhD0/A.jpg",
+        "img2": "https://i.ibb.co/hckb8Pj/B.jpg",
+        "img3": "https://i.ibb.co/C9Y47qC/F.jpg",
+        "img4": "https://i.ibb.co/DD07CTT/H.jpg",
+        "img5": "https://i.ibb.co/Wky0vLs/J.jpg"
+      }
+    },
+    {
+      "modelNo": "03-YGP",
+      "price": "37000/-",
+      "basinSize": "39 x 20 inches",
+      "mirrorSize": "39 x 27 inches",
+      "topSize": "23 x 16 inches",
+      "color": "Antique Solid Gold",
+      "weight": "90 kg",
+      "style": "Table Top Basin",
+      "img": {
+        "img1": "https://i.ibb.co/rGFDs18/03-yellow-A.jpg",
+        "img2": "https://i.ibb.co/HVsKZ4W/03-yellow-B.jpg",
+        "img3": "https://i.ibb.co/FsVH5Sg/03-yellow-F.jpg",
+        "img4": "https://i.ibb.co/zNqmCBM/03-yellow-J.jpg",
+        "img5": "https://i.ibb.co/KjF3c4G/03-yellow-C.jpg"
+      }
+    },
+    {
+      "modelNo": "04-BGP",
+      "price": "34000/-",
+      "basinSize": "34 x 22 inches",
+      "mirrorSize": "32 x 24 inches",
+      "topSize": "24 x 18 inches",
+      "color": "Antique Solid Gold",
+      "weight": "50 kg",
+      "style": "Table Top Basin",
+      "img": {
+        "img1": "https://i.ibb.co/HYMRR61/A.jpg",
+        "img2": "https://i.ibb.co/Ntm3Gqt/B.jpg",
+        "img3": "https://i.ibb.co/p236jcx/C.jpg",
+        "img4": "https://i.ibb.co/H7XCtZN/D.jpg",
+        "img5": "https://i.ibb.co/5909sth/E.jpg",
+        "img6": "https://i.ibb.co/wct2BFf/F.jpg"
+      }
+    }
+  ]
+  
