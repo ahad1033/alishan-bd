@@ -19,7 +19,7 @@ const Navbar = () => {
     </>
 
     return (
-        <nav className='section-container bg-black'>
+        <nav className='section-container bg-black pe-5'>
             <div className="navbar">
                 <div id='1' className="lg:hidden md:hidden navbar-start">
                     <div className="dropdown">
@@ -33,10 +33,10 @@ const Navbar = () => {
                         </ul>
                     </div>
                 </div>
-                <div id='2' className="lg:navbar-start md:navbar-start sm:navbar-end">
+                <div id='2' className="navbar-end md:navbar-start lg:navbar-start">
                     <img id='img' className='items-center' src={logo} width="60px" alt="Alishan" />
                 </div>
-                <div id='3' className="navbar-end hidden lg:flex md:flex">
+                <div id='3' className="navbar-end hidden md:flex lg:flex">
                     <ul className="menu menu-horizontal px-1 font-bold text-[var(--text-primary)]">
                         {navItems}
                     </ul>
